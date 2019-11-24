@@ -6,9 +6,9 @@ var Curry = require("bs-platform/lib/js/curry.js");
 var Fetch = require("bs-fetch/src/Fetch.js");
 var React = require("react");
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
-var Aws$ReasonReactExamples = require("./Dogs/Aws.bs.js");
-var Grid$ReasonReactExamples = require("./Dogs/Grid.bs.js");
-var ColdStart$ReasonReactExamples = require("./Dogs/ColdStart.bs.js");
+var Aws$ReasonReactExamples = require("./dogs/Aws.bs.js");
+var Grid$ReasonReactExamples = require("./dogs/Grid.bs.js");
+var ColdStart$ReasonReactExamples = require("./dogs/ColdStart.bs.js");
 var ReasonUrql$ReasonReactExamples = require("../reason-urql/ReasonUrql.bs.js");
 
 var fetchOptions = Fetch.RequestInit.make(/* Post */2, {

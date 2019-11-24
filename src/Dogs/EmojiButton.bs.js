@@ -1,6 +1,6 @@
 'use strict';
 
-var React = require("react");
+var React = require("./node_modules/react");
 var EmojiButtonStyles$ReasonReactExamples = require("./EmojiButtonStyles.bs.js");
 
 function EmojiButton(Props) {

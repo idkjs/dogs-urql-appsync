@@ -1,6 +1,6 @@
 'use strict';
 
-var React = require("react");
+var React = require("./node_modules/react");
 var DogStyles$ReasonReactExamples = require("./DogStyles.bs.js");
 var EmojiButton$ReasonReactExamples = require("./EmojiButton.bs.js");
 

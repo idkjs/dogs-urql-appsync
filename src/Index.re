@@ -1,6 +1,5 @@
 open ReasonUrql;
 
-// let client = Client.make(~url="https://formidadog-ql.now.sh", ());
 open Aws;
 let fetchOptions =
   Fetch.RequestInit.make(

@@ -1,6 +1,6 @@
 'use strict';
 
-var Css = require("bs-css/src/Css.js");
+var Css = require("./node_modules/bs-css/src/Css.js.js");
 
 var container = Css.style(/* :: */[
       Css.justifySelf(Css.center),
