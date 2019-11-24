@@ -12,7 +12,10 @@
   "keywords": [
     "BuckleScript",
     "ReasonReact",
-    "reason-react"
+    "reason-react",
+    "appsync",
+    "aws",
+    "reason-urql"
   ],
   "author": "",
   "license": "MIT",
