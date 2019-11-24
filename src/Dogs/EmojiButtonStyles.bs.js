@@ -1,6 +1,6 @@
 'use strict';
 
-var Css = require("./node_modules/bs-css/src/Css.js.js");
+var Css = require("bs-css/src/Css.js");
 
 function emojiButton(color) {
   return Css.style(/* :: */[

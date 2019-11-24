@@ -19,7 +19,8 @@ let client =
   );
 ReactDOMRe.renderToElementWithId(
   <Provider value=client> <ColdStart />
-   <Grid client />
+   <Grid2 client />
+
    </Provider>,
   "root",
 );

@@ -7,7 +7,7 @@ var Fetch = require("bs-fetch/src/Fetch.js");
 var React = require("react");
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
 var Aws$ReasonReactExamples = require("./dogs/Aws.bs.js");
-var Grid$ReasonReactExamples = require("./dogs/Grid.bs.js");
+var Grid2$ReasonReactExamples = require("./dogs/Grid2.bs.js");
 var ColdStart$ReasonReactExamples = require("./dogs/ColdStart.bs.js");
 var ReasonUrql$ReasonReactExamples = require("../reason-urql/ReasonUrql.bs.js");
 
@@ -21,7 +21,7 @@ var client = Curry._5(ReasonUrql$ReasonReactExamples.Client.make, Aws$ReasonReac
 ReactDOMRe.renderToElementWithId(React.createElement(Urql.Provider, {
           value: client,
           children: null
-        }, React.createElement(ColdStart$ReasonReactExamples.make, { }), React.createElement(Grid$ReasonReactExamples.make, {
+        }, React.createElement(ColdStart$ReasonReactExamples.make, { }), React.createElement(Grid2$ReasonReactExamples.make, {
               client: client
             })), "root");
 
