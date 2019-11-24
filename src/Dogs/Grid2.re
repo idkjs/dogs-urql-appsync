@@ -1,10 +1,13 @@
 open ReasonUrql;
 open Client;
 open Decoder;
+/* option(array(option(ReasonReactExamples.Decoder.dogJs))); */
+// type items = option(array(option(ReasonReactExamples.Decoder.dog)));
+// type listDogs = {listDogs: option(items)};
 module GetAllDogs = [%graphql
   {|
   {
-    listDogs  {
+    listDogs {
       items {
         id
         name
