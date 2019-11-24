@@ -20,7 +20,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@aws-amplify/core": "1.2.4",
+    "@aws-amplify/api": "2.1.0",
+    "@aws-amplify/core": "2.1.0",
+    "@aws-amplify/pubsub": "2.1.0",
     "bs-css": "8.0.4",
     "bs-fetch": "0.5.0",
     "react": "^16.8.1",
